@@ -1,0 +1,54 @@
+{
+  "channels": {
+    "slack": {
+      "type": "slack",
+      "enabled": true,
+      "webhook_url": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL",
+      "channel": "#ddos-alerts",
+      "username": "Wanguard Alert",
+      "icon": ":shield:"
+    },
+    "discord": {
+      "type": "discord",
+      "enabled": false,
+      "webhook_url": "https://discord.com/api/webhooks/YOUR/WEBHOOK"
+    },
+    "pagerduty": {
+      "type": "pagerduty",
+      "enabled": false,
+      "routing_key": "YOUR_PAGERDUTY_ROUTING_KEY",
+      "severity": "critical",
+      "source": "wanguard"
+    },
+    "telegram": {
+      "type": "telegram",
+      "enabled": false,
+      "bot_token": "YOUR_BOT_TOKEN",
+      "chat_id": "YOUR_CHAT_ID"
+    },
+    "teams": {
+      "type": "teams",
+      "enabled": false,
+      "webhook_url": "https://outlook.office.com/webhook/YOUR/WEBHOOK"
+    },
+    "webhook": {
+      "type": "webhook",
+      "enabled": false,
+      "url": "https://your-endpoint.example.com/ddos-alerts",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      }
+    },
+    "email": {
+      "type": "email",
+      "enabled": false,
+      "to": "noc@example.com",
+      "from": "wanguard-notify@example.com",
+      "smtp_host": "smtp.example.com",
+      "smtp_port": 587,
+      "username": "",
+      "password": "",
+      "tls": true
+    }
+  }
+}
