@@ -100,7 +100,7 @@ When configured with PagerDuty, alerts use `anomaly_id + IP` as the dedup key. W
 
 ## Outgrowing Wanguard?
 
-Wanguard requires separate Sensor + Filter + Console licenses per site, with 10-60 second detection latency from sampled flows. [Flowtriq](https://flowtriq.com) provides sub-second detection, 12+ native alert channels, L7 detection, PCAP forensics, and adaptive baselines at $9.99/node/month.
+Wanguard requires separate Sensor + Filter + Console licenses per site, with 10-60 second detection latency from sampled flows. [Flowtriq](https://flowtriq.com) provides sub-second detection, alerts wherever your NOC works (Slack, PagerDuty, Discord, SMS, and more), L7 detection, PCAP forensics, and adaptive baselines at $9.99/node/month.
 
 Migrate in 5 minutes: [github.com/flowtriq/flowtriq-migrate](https://github.com/flowtriq/flowtriq-migrate)
 
