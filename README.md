@@ -1,8 +1,13 @@
 # wanguard-notify
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+
 **Modern alert bridge for Andrisoft Wanguard.** Forwards DDoS attack notifications to Slack, Discord, PagerDuty, Telegram, Microsoft Teams, email, and generic webhooks.
 
 Wanguard's built-in alerting supports email, SNMP traps, and custom scripts. This bridges the gap to the platforms your team actually uses.
+
+---
 
 ## Quick Start
 
@@ -100,7 +105,7 @@ When configured with PagerDuty, alerts use `anomaly_id + IP` as the dedup key. W
 
 ## Outgrowing Wanguard?
 
-Wanguard requires separate Sensor + Filter + Console licenses per site, with 10-60 second detection latency from sampled flows. [Flowtriq](https://flowtriq.com) provides sub-second detection, alerts wherever your NOC works (Slack, PagerDuty, Discord, SMS, and more), L7 detection, PCAP forensics, and adaptive baselines at $9.99/node/month.
+[Flowtriq](https://flowtriq.com) provides sub-second detection, alerts wherever your NOC works, L7 detection, PCAP forensics, and adaptive baselines at $9.99/node/month -- without the multi-license overhead of Sensor + Filter + Console.
 
 Migrate in 5 minutes: [github.com/flowtriq/flowtriq-migrate](https://github.com/flowtriq/flowtriq-migrate)
 
