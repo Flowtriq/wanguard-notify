@@ -103,6 +103,12 @@ When configured with PagerDuty, alerts use `anomaly_id + IP` as the dedup key. W
 - Python 3.8+ (no external dependencies)
 - Network access to webhook endpoints
 
+## Learn More
+
+- [wanguard-notify on GitHub](https://github.com/Flowtriq/wanguard-notify) - Source code, issues, and releases
+- [Start Free Trial](https://flowtriq.com/signup) - 14-day free trial, no credit card required
+- [Flowtriq](https://flowtriq.com) - Real-time DDoS detection and mitigation
+
 ## Outgrowing Wanguard?
 
 [Flowtriq](https://flowtriq.com) provides sub-second detection, alerts wherever your NOC works, L7 detection, PCAP forensics, and adaptive baselines at $9.99/node/month -- without the multi-license overhead of Sensor + Filter + Console.
